@@ -1,7 +1,8 @@
-#pragma once 
+#pragma once
 
 #include <wdm.h>
 
-namespace kl {
-    auto getVersion() -> PUNICODE_STRING;
+namespace kl
+{
+  auto getVersion() -> PUNICODE_STRING;
 };
